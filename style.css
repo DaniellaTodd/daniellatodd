@@ -1,0 +1,118 @@
+body {
+  margin-top: 2%;
+  margin-left: 2%;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.flex {
+  display: flex;
+  align-items:center;        /* Header alignment */
+}
+
+#social-list {
+  margin-left: 0%;
+}
+
+#social-list li {
+  list-style: none;
+  display: inline-block;
+}
+
+#page-container {
+  position: relative;
+  min-height: 95vh;
+}
+
+#connect {
+  padding-top: 0.2%;
+  padding-left: 1%;
+}
+
+.wrap-text {
+  inline-size: 545px;
+  overflow: hidden;
+}
+
+#content-wrap {
+  padding-top: 7%;
+  padding-bottom: 2.5rem;    /* Footer height */
+  font-size: 25px;
+}
+
+#project-links {
+  padding-top: 3%;
+}
+
+#draw-something {
+  font-weight: bold;
+  margin-top: -18%;
+  padding-left: 83%;
+}
+
+#arrow {
+  margin-left: -10%;
+  width: 130px;
+  height: 150px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-style {
+  font-weight: bold;
+}
+
+#button-list {
+  margin-left: -3%;
+}
+
+#button-list li {
+  list-style: none;
+  display: inline-block;
+}
+
+/* MOBILE SITE STYLES */
+
+#social-list-m {
+  margin-left: 0%;
+}
+
+#social-list-m li {
+  list-style: none;
+  display: inline-block;
+}
+
+#page-container-m {
+  position: relative;
+  min-height: 95vh;
+}
+
+#connect-m {
+  padding-top: 0.2%;
+  padding-left: 1%;
+}
+
+#content-wrap-m {
+  padding-top: 7%;
+  padding-bottom: 2.5rem;    /* Footer height */
+  font-size: 25px;
+}
+
+#project-links-m {
+  padding-top: 3%;
+}
