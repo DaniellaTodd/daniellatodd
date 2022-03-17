@@ -45,10 +45,10 @@ function windowResized() {
 
 function changeColorBlack() {
   document.body.style.background = '#181818';
-  document.body.style.color = 'white';
-  document.getElementById('btn-black').style.color = 'white';
-  document.getElementById('btn-white').style.color = 'white';
-  document.getElementById('btn-clear').style.color = 'white';
+  document.body.style.color = '#FAF9F6';
+  document.getElementById('btn-black').style.color = '#FAF9F6';
+  document.getElementById('btn-white').style.color = '#FAF9F6';
+  document.getElementById('btn-clear').style.color = '#FAF9F6';
   var elements = document.getElementsByClassName('work-link'), i, len;
   for (i = 0, len = elements.length; i < len; i++) {
     elements[i].style.color = 'white';
