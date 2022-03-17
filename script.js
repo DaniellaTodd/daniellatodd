@@ -44,7 +44,7 @@ function windowResized() {
 }
 
 function changeColorBlack() {
-  document.body.style.background =' #000';
+  document.body.style.background = '#181818';
   document.body.style.color = 'white';
   document.getElementById('btn-black').style.color = 'white';
   document.getElementById('btn-white').style.color = 'white';
