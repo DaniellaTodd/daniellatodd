@@ -4,13 +4,13 @@ var blackButton;
 var whiteButton;
 var clearButton;
 
-function preload(){
-  bg = loadImage('images/border.png');
-}
+// function preload(){
+//   bg = loadImage('images/border.png');
+// }
 
 function setup() {
-  canvas = createCanvas(600, 600);
-  canvas.position(600, 130);
+  canvas = createCanvas(windowWidth, windowHeight);
+  canvas.position(0, 0);
   canvas.style('z-index', '0');
   strokeWeight(4);
   stroke(100);
@@ -32,17 +32,16 @@ function resetCanvas() {
 }
 
 function draw() {
-  background(bg);
+  // background(bg);
   if (mouseIsPressed) {
     line(pmouseX, pmouseY, mouseX, mouseY);
   }
   cursor(HAND);
 }
 
-// function windowResized() {
-//     remove();
-//
-// }
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+}
 
 function changeColorBlack() {
   document.body.style.background =' #000';
@@ -50,6 +49,10 @@ function changeColorBlack() {
   document.getElementById('btn-black').style.color = 'white';
   document.getElementById('btn-white').style.color = 'white';
   document.getElementById('btn-clear').style.color = 'white';
+  var elements = document.getElementsByClassName('work-link'), i, len;
+  for (i = 0, len = elements.length; i < len; i++) {
+    elements[i].style.color = 'white';
+  }
 }
 function changeColorWhite() {
   document.body.style.background = '#fff';
@@ -57,6 +60,10 @@ function changeColorWhite() {
   document.getElementById('btn-black').style.color = 'black';
   document.getElementById('btn-white').style.color = 'black';
   document.getElementById('btn-clear').style.color = 'black';
+  var elements = document.getElementsByClassName('work-link'), i, len;
+  for (i = 0, len = elements.length; i < len; i++) {
+    elements[i].style.color = 'black';
+  }
 }
 function changeColorClear() {
   document.body.style.background = transparent;
@@ -64,4 +71,8 @@ function changeColorClear() {
   document.getElementById('btn-black').style.color = 'black';
   document.getElementById('btn-white').style.color = 'black';
   document.getElementById('btn-clear').style.color = 'black';
+  var elements = document.getElementsByClassName('work-link'), i, len;
+  for (i = 0, len = elements.length; i < len; i++) {
+    elements[i].style.color = 'black';
+  }
 }
