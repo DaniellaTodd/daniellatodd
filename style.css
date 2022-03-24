@@ -16,6 +16,7 @@ a {
 #social-list {
   margin-left: 0%;
   z-index: 1;
+  cursor: pointer;
 }
 
 #social-list li {
@@ -42,6 +43,7 @@ a {
   padding-top: 7%;
   padding-bottom: 2.5rem;    /* Footer height */
   font-size: 25px;
+  /* z-index: 1; */
 }
 
 #project-links {
@@ -49,8 +51,9 @@ a {
 }
 
 .work-link {
+  position: relative;
+  z-index: 1;
   color: #000;
-  z-index: 2;
 }
 
 #draw-instructions {
