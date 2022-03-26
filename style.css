@@ -34,10 +34,10 @@ a {
   padding-left: 1%;
 }
 
-/* .wrap-text {
-  inline-size: 545px;
-  overflow: hidden;
-} */
+.comment-text {
+  font-size: 15px;
+  vertical-align: middle;
+}
 
 #content-wrap {
   padding-top: 7%;
@@ -54,10 +54,6 @@ a {
   position: relative;
   z-index: 1;
   color: #000;
-}
-
-#draw-instructions {
-  font-size: 15px;
 }
 
 #arrow {
