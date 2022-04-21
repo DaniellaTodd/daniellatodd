@@ -9,6 +9,13 @@ a {
   color: #000;
 }
 
+button {
+  color: #000;
+  font-family: 'Ubuntu Mono';
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
 .flex {
   display: flex;
   align-items:center;        /* Header alignment */
@@ -82,7 +89,7 @@ button {
 }
 
 #button-list {
-  margin-left: -3%;
+  margin-left: -3.5%;
 }
 
 #button-list li {
