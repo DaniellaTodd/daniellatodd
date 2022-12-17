@@ -45,10 +45,11 @@ button {
 .comment-text {
   font-size: 15px;
   vertical-align: middle;
+  padding-top: 3%;
 }
 
 #content-wrap {
-  padding-top: 6%;
+  padding-top: 7%;
   padding-bottom: 2.5rem;    /* Footer height */
   font-size: 25px;
   /* z-index: 1; */
